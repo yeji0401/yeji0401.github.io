@@ -1,0 +1,109 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    width: 1024px;
+    background-color: black;
+}
+div#main_title {
+    font-family: 'Rubik Spray Paint', cursive;
+    font-weight: 50;
+}
+div#main_title a{
+    font-size: 30px; 
+    color: white;
+    text-decoration: none;
+}
+header {
+    width: 1024px;
+}
+#container {
+    margin-top: 50px;
+}
+nav {
+    margin-bottom: 30px;
+}
+nav ul { 
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    font-family: 'Bitter', serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+nav ul li a {
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    border-top: 3px solid white;
+}
+
+nav ul li:nth-child(4) {
+    border-top: 3px solid white;
+}
+
+#text{
+    margin: auto;
+    overflow: scroll;
+    width: 500px;
+    margin-top : 100px;
+    border: 3px solid white;
+    color:white;
+}
+
+#content {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.year {
+    width: 600px;
+    height: 200px;
+    font-family: 'Bitter', serif;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.year:hover {
+    transition: .7s;
+    transform: scale(1.2);
+}
+
+.year:hover span {
+    font-style: italic;
+    background-color: lightgoldenrodyellow;
+}
+
+.year h2 {
+    width: 141px;
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.year span {
+    font-size: 17px;
+    vertical-align: middle;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+img {
+    height: 100px;
+}
+
+footer {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}

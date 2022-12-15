@@ -1,0 +1,89 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    width: 1024px;
+    background-color: black;
+}
+#main_title {
+    font-family: 'Rubik Spray Paint', cursive;
+    font-weight: 50;
+}
+#main_title a{
+    font-size: 30px; 
+    color: white;
+    text-decoration: none;
+}
+header {
+    width: 1024px;
+}
+#container {
+    margin-top: 50px;
+}
+nav {
+    margin-bottom: 30px;
+}
+nav ul { 
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    font-family: 'Bitter', serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+nav ul li a {
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    border-top: 3px solid white;
+}
+
+nav ul li:nth-child(1) {
+    border-top: 3px solid white;
+}
+
+table {
+    color: white;
+    border: 1px solid white;
+}
+#profile {
+    margin-top: 100px;
+    text-align: center;
+}
+img {
+    width: 300px;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+img:hover {
+    transition: 1s;
+    border-radius: 150px;
+    background: linear-gradient(to right, #B1B3D6, #9A80AF);
+}
+#content {
+    margin-top: 30px;
+    text-align: center;
+    color: white
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 20px;
+}
+h1 {
+    font-family: 'Bitter', serif;
+}
+button {
+    width: 200px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 3px 3px 3px white;
+}
+
+footer {
+    color: white;
+    margin-top: 130px;
+    text-align: center;
+}

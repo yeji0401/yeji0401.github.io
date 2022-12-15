@@ -1,0 +1,159 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    width: 1024px;
+    background-color: black;
+}
+div#main_title {
+    font-family: 'Rubik Spray Paint', cursive;
+    font-weight: 50;
+}
+div#main_title a{
+    font-size: 30px; 
+    color: white;
+    text-decoration: none;
+}
+header {
+    width: 1024px;
+}
+#container {
+    margin-top: 50px;
+}
+nav {
+    margin-bottom: 30px;
+}
+nav ul { 
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    font-family: 'Bitter', serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+nav ul li a {
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    border-top: 3px solid white;
+}
+
+nav ul li:nth-child(5) {
+    border-top: 3px solid white;
+}
+
+div#text{
+    overflow: scroll;
+    width: 760px;
+    margin-top : 100px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    border: 3px solid white;
+    color:white;
+}
+
+div#memberList{
+    overflow: scroll;
+    width: 760px;
+    margin-top : 50px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    border: 3px solid white;
+    color:white;
+}
+
+h3 {
+    margin-left: 140px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+form {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+table {
+    width: 800px;
+    border-collapse: separate;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+th {
+    text-align: left;
+    width: 100px;
+}
+
+td {
+    width: 190px;
+}
+th, td {
+    padding: 5px;
+}
+
+.req {
+    color: red;
+}
+
+div#member {
+    text-align: center;
+    padding: 10px;
+}
+
+.basic {
+    width: 230px;
+    height: 20px;
+}
+div#submit {
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px white;
+    font-family: 'Bitter', serif;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(to right, #B1B3D6, #9A80AF);
+
+}
+.birth {
+    width: 50px;
+    height: 20px;
+}
+
+.explanation {
+    width: 200px;
+    text-align: left;
+    font-size: 11px;
+}
+
+#tbl-memberList {
+    border-collapse: collapse;
+}
+
+#tbl-memberList th {
+    font-size: 17px;
+}
+
+#tbl-memberList th, td {
+    text-align: center;
+    height: 30px;
+}
+
+footer {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
